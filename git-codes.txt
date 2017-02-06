@@ -1,0 +1,28 @@
+
+# Configura dados pessoais da conta
+git config --global user.name "Bruno Pinheiro"
+git config --global user.email "bruno.lahunmen@gmail.com"
+
+# Configura editor de texto e diff para merges
+git config --global core.editor atom
+git config --global merge.tool vimdiff
+
+# Conferir configurações
+git config --list
+
+# Inicializar um repositório - ir até o diretório
+git init
+
+# adicionar arquivos para monitorar
+git add extract-tracks.py
+
+# registrar mudanças
+git add extract-tracks.py
+
+# commitar
+git commit extract-tracks.py
+
+# Ignorar arquivos - criar arquivo .gitignore
+$ cat .gitignore
+*.[oa]
+*~
