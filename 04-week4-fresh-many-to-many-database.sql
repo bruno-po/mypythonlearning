@@ -36,3 +36,9 @@ INSERT INTO Member (user_id, course_id, role) VALUES (1, 2, 0);
 INSERT INTO Member (user_id, course_id, role) VALUES (2, 2, 1);
 INSERT INTO Member (user_id, course_id, role) VALUES (2, 3, 1);
 INSERT INTO Member (user_id, course_id, role) VALUES (3, 3, 0)
+
+SELECT User.name Member.role Course.title
+	FROM User JOIN Member JOIN Course
+	ON Member.user_id = User.id
+		AND Member.course_id = Course.id
+	ORDER BY Course.title, Member.role DESC, User.name
