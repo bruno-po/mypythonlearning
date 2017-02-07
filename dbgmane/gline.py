@@ -83,29 +83,29 @@ print days
 print
 
 fhand = open('gline.js','w')
-fhand.write("gline = [ ['Month'")
+fhand.write("gline = [ ['Day'")
 for org in orgs:
     fhand.write(",'"+org+"'")
 fhand.write("]")
 
-# for month in months[1:-1]:
-for month in months:
-    fhand.write(",\n['"+month+"'")
-    for org in orgs:
-        key = (month, org)
-        val = mcounts.get(key,0)
-        print val
-        fhand.write(","+str(val))
-    fhand.write("]");
-
-# # for day in days
-# for day in days:
-#     fhand.write(",\n['"+day+"'")
+# # for month in months[1:-1]:
+# for month in months:
+#     fhand.write(",\n['"+month+"'")
 #     for org in orgs:
-#         key = (day, org)
-#         val = dcounts.get(key,0)
+#         key = (month, org)
+#         val = mcounts.get(key,0)
+#         print val
 #         fhand.write(","+str(val))
 #     fhand.write("]");
+
+# for day in days
+for day in days:
+    fhand.write(",\n['"+day+"'")
+    for org in orgs:
+        key = (day, org)
+        val = dcounts.get(key,0)
+        fhand.write(","+str(val))
+    fhand.write("]");
 
 fhand.write("\n];\n")
 #
