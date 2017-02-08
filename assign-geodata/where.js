@@ -209,5 +209,19 @@ myData = [
 [-23.5479009,-46.6502372, 'R. da Consolação, 930 - Consolação, São Paulo - SP, 01302-907, Brazil'],
 [-23.5378584,-46.6713104, 'R. Monte Alegre, 984 - Perdizes, São Paulo - SP, 05014-901, Brazil'],
 [-22.9782927,-43.2333608, 'R. Marquês de São Vicente, 225 - Gávea, Rio de Janeiro - RJ, 22430-060, Brazil'],
-[-19.9236342,-43.992471, '901, - R. Dom José Gáspar, 500 - Coração Eucarístico, Belo Horizonte - MG, Brazil']
+[-19.9236342,-43.992471, '901, - R. Dom José Gáspar, 500 - Coração Eucarístico, Belo Horizonte - MG, Brazil'],
+[-19.9236342,-43.992471, '901, - R. Dom José Gáspar, 500 - Coração Eucarístico, Belo Horizonte - MG, Brazil'],
+[-19.916052,-43.975836, 'R. Riachuelo, 1321 - Padre Eustáquio, Belo Horizonte - MG, 30720-450, Brazil'],
+[-21.7765015,-43.3688912, 'Rua José Lourenço Kelmer, S/n - Martelos, Juiz de Fora - MG, 36036-330, Brazil'],
+[-21.2292703,-44.9775718, 'Av. Doutor Sylvio Menicucci, 1001 - Kennedy, Lavras - MG, 37200-000, Brazil'],
+[-19.8690878,-43.9663841, 'Av. Pres. Antônio Carlos, 6627 - Pampulha, Belo Horizonte - MG, 31270-901, Brazil'],
+[-18.9176744,-48.2583046, 'Reitoria da Universidade Federal de Uberlândia - Av. João Naves de Ávila, 2121 - Santa Mônica, Uberlândia - MG, 38408-102, Brazil'],
+[-19.7556435,-47.934527, 'R. Frei Paulino, 30 - Nossa Sra. da Abadia, Uberaba - MG, 38025-180, Brazil'],
+[-20.7610104,-42.869056, 'Avenida Peter Henry Rolfs, s/n - Campus Universitário, Viçosa - MG, 36570-900, Brazil'],
+[-21.4501945,-45.9458599, 'Rodovia Km 0, Bairro Trevo - MG 179, Alfenas - MG, 37130-000, Brazil'],
+[-3.7860875,-38.5525112, 'Avenida Dr. Silas Muguba, 1700 - Campus do Itaperi, CE, 60740-000, Brazil'],
+[-3.741262,-38.539389, 'Av. da Universidade, 2853 - Benfica, Fortaleza - CE, 60040-531, Brazil'],
+[-3.7688874,-38.4816098, 'Av. Washington Soares, 1321 - Edson Queiroz, Fortaleza - CE, 60811-905, Brazil'],
+[-7.2285843,-39.4017694, 'Rua Cel. Antônio Luis, 1161 - Pimenta, Crato - CE, 63100-000, Brazil'],
+[-3.6763586,-40.3400849, 'Av. da Universidade, 850 - Betania, Sobral - CE, 62040-370, Brazil']
 ];
