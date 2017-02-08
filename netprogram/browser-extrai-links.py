@@ -1,8 +1,11 @@
 import urllib
-import re
+from bs4 import BeautifulSoup 
 
 url = raw_input('Digite a URL > ')
 html = urllib.urlopen(url).read()
-links = re.findall('href="(http://.*?)"', html)
-for link in links:
-    print link
+
+soup = BeautifulSoup(html)
+# Retrieve all of the anchor tags
+tags = soup('img')
+for tag in tags:
+    print tag.get('src', None)
